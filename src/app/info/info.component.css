@@ -1,0 +1,88 @@
+.container{
+  position: absolute;
+  display: flex;
+  left: 20%;
+  justify-content: flex-start;
+
+}
+.all{
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+}
+.header{
+  left: 20%;
+  position: relative;
+  top: 0;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: goldenrod;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.white{
+  color: white !important;
+}
+
+.words{
+  padding-left: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.words .title{
+  font-family: sans-serif;
+  color: goldenrod;
+  font-size: 25px;
+}
+.words .par{
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.image{
+  height: 300px;
+  width: 280px;
+  box-shadow: 1px 1px 1px white;
+  border: 8px solid white;
+}
+.image img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.mInfo span{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.yellow{
+  color: goldenrod !important;
+  font-size: 22px !important;
+  font-weight: bold;
+}
+.btn{
+  padding-top: 5px;
+}
+
+.btn button{
+  background-color: transparent;
+  height: 50px;
+  width: 150px;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 15px;
+  border:1px solid goldenrod;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn button:hover{
+  background-color: goldenrod;
+  color: black;
+  cursor: pointer;
+}

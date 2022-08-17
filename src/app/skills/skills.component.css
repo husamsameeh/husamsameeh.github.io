@@ -1,0 +1,140 @@
+.all{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading{
+  position: relative;
+  left: 20%;
+  height: 100px;
+  width: 130px;
+}
+
+.heading .title{
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  border-bottom: 3px goldenrod solid;
+}
+.yellow{
+  color: goldenrod;
+}
+
+
+.container{
+  position: relative;
+  left: 20%;
+}
+
+
+.skills-bar{
+  width: 900px;
+  padding: 25px 30px;
+}
+
+.skills-bar .bar{
+  margin: 20px 0;
+}
+
+.skills-bar .bar:first-child{
+  margin-top: 0px;
+}
+.skills-bar .bar .info span{
+  font-size: 27px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+}
+
+.skills-bar .bar .progress-line{
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+              0px 1px rgba(255,255,255,0.8);
+}
+
+.bar .progress-line span{
+  height: 100%;
+  width: 80%;
+  background: goldenrod;
+  position: absolute;
+  border-radius: 15px;
+}
+.skills-bar .bar .info{
+  margin-bottom: 5px;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: '';
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width:  0px;
+  border-top-color: #000;
+  top: -10px;
+}
+.bar .progress-line span::after {
+
+  position: absolute;
+  right: 0;
+  top: -28px;
+  background: #000;
+  color: white;
+  font-weight: 500;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+.bar .progress-line.html span::after {
+  content: '80%';
+}
+.bar .progress-line.python span::after {
+  content: '50%';
+}
+.bar .progress-line.java span::after {
+  content: '85%';
+}
+
+.bar .progress-line.ps span::after {
+  content: '75%';
+}
+
+.bar .progress-line.spring span::after {
+  content: '80%';
+}
+
+.bar .progress-line.html span {
+  width: 80%;
+}
+.bar .progress-line.python span {
+  width: 50%;
+}
+.bar .progress-line.java span {
+  width: 85%;
+}
+
+.bar .progress-line.ps span {
+  width: 75%;
+}
+
+.bar .progress-line.spring span {
+  width: 80%;
+}
+
+.bar .progress-line.css span {
+  width: 75%;
+}
+
+.bar .progress-line.css span::after {
+  content: '75%';
+}
+

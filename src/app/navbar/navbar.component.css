@@ -1,0 +1,71 @@
+.cont{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+.menu{
+  position: absolute;
+  top: 0%;
+  right: 3%;
+}
+
+.logo i{
+  font-size: 30px;
+  font-family: sans-serif;
+  left: 10%;
+  position: absolute;
+  top: 10px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.menu .menu-items ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.menu .menu-items ul li{
+  position: relative;
+  list-style: none;
+  margin-left: 25px;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu .menu-items li::after{
+  content: '';
+  background-color: white;
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+
+
+.menu .menu-items ul li:hover::after{
+
+  content: '';
+  background-color: white;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+
+
+}
+
+
