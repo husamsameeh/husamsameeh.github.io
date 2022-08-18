@@ -1,5 +1,5 @@
 .cont{
-  position: fixed;
+  position: sticky;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
