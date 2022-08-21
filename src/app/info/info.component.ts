@@ -12,4 +12,14 @@ export class InfoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  downloadCV() {
+    const link = document.createElement('a');
+    link.setAttribute('target', '_blank');
+    link.setAttribute('href', 'assets/myResume.pdf');
+    link.setAttribute('download', `CV.pdf`);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+  }
 }

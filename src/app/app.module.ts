@@ -9,6 +9,7 @@ import { InfoComponent } from './info/info.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContanctComponent } from './contanct/contanct.component';
 import { ExperinceComponent } from './experince/experince.component';
+import {AppRoutingModule} from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ExperinceComponent } from './experince/experince.component';
     ExperinceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
