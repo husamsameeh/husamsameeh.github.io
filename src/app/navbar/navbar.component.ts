@@ -27,4 +27,9 @@ export class NavbarComponent implements OnInit {
     // @ts-ignore
     document.getElementById("abtme").scrollIntoView({behavior:"smooth"})
   }
+
+  toContact() {
+    // @ts-ignore
+    document.getElementById("cont").scrollIntoView({behavior:"smooth"});
+  }
 }
